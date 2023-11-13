@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quotation Shake</string>
+    <string name="randQ">Citas aleatorias</string>
+    <string name="getQ">Obtener citas</string>
+    <string name="favQ">Citas favoritas</string>
+    <string name="settings">Configuración</string>
+    <string name="info">Acerca de</string>
+    <string name="dev_pic_tag">Foto del desarrollador</string>
+    <string name="des_pic_tag">Foto del diseñador</string>
+    <string name="message">Los botones funcionan</string>
+    <string name="title_activity_about">AcercaDeActivity</string>
+    <string name="tagInfo">\nQuotation Shake por \n\nErmes Liriano\nEmmanuel Capellán\n\n\ermes_jr@hotmail.com\nmadboy.sr@gmail.com\n\n®UPV 2023</string>
+    <string name="username">Nombre que identifica al usuario</string>
+    <string name="insert_name">Inserta tu nombre</string>
+    <string name="quotes_sel_lang">Las citas se recibirán en el idioma seleccionado</string>
+    <string name="web_requests">Las solicitudes web se realizarán utilizando el método HTTP seleccionado</string>
+    <string name="get">GET</string>
+    <string name="post">POST</string>
+    <string name="author_info">Información del autor</string>
+    <string name="hello_user">¡Hola %1s!\nPresiona Actualizar para recibir una nueva cita</string>
+    <string name="quotation">Esta es una cita de ejemplo</string>
+    <string name="author">Este es un autor de ejemplo</string>
+    <string name="refresh_button">Presiona para actualizar</string>
+    <string name="default_name">Sin nombre</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tagInfo"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toTopOf="@+id/ermes_pr_pic"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="1"
+            tools:layout_editor_absoluteX="-30dp" />
+
+        <ImageView
+            android:id="@+id/ermes_pr_pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="bottom|start"
+            android:contentDescription="@string/dev_pic_tag"
+            android:src="@drawable/ermes_pr"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ermes_con_pic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_author" />
+
+        <ImageView
+            android:id="@+id/ermes_con_pic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ermes_con"
+            app:layout_constraintTop_toBottomOf="@id/tv_author"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ermes_pr_pic"
+            android:contentDescription="@string/des_pic_tag"
+            android:layout_gravity="bottom|end"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
